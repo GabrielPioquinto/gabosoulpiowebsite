@@ -119,4 +119,13 @@ h1 {
 .voice {
     font-size: 18px;
     margin-bottom: 10px;
+
+}
+
+button{
+padding:10px 20px;
+font-family:Quicksand;
+font-size:16px;
+margin:15px 0;
+cursor:pointer;
 }
