@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soul - Extra Info</title>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Quicksand&display=swap"
         rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="gab.css">
 </head>
 
@@ -19,6 +22,9 @@
 
     <div class="container">
         <h1>Extra Information</h1>
+
+        <button onclick="showMessage()">Click for a Soul Message</button>
+        <p id="message"></p>
 
         <div class="info-box">
             <h2>Release & Production</h2>
@@ -52,6 +58,13 @@
         </div>
 
     </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Life is not about one big purpose. Enjoy the small moments every day!";
+        }
+    </script>
 
 </body>
 
